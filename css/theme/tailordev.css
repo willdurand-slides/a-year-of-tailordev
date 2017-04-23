@@ -310,6 +310,10 @@ body {
     width: 30%;
 }
 
+.tailordev-logo.big {
+    width: 50%;
+}
+
 .reveal img.right {
     float: right;
     width: 40%;
