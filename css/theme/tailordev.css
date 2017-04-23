@@ -298,6 +298,7 @@ body {
 .reveal section img {
   margin: 15px 0px;
   background: rgba(255, 255, 255, 0.12);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
 }
 
 .reveal section img.plain {
@@ -320,12 +321,6 @@ body {
 
 .tailordev-logo.big {
     width: 50%;
-}
-
-.reveal img.right {
-    float: right;
-    width: 40%;
-    padding-left: 1.5rem;
 }
 
 /*********************************************
