@@ -3,22 +3,29 @@
  */
 @import url(../../lib/font/lato/lato.css);
 
-section.has-dark-background,
+section.has-dark-background {
+  color: #fbfbfb;
+}
+
 section.has-dark-background h1,
 section.has-dark-background h2,
 section.has-dark-background h3,
 section.has-dark-background h4,
 section.has-dark-background h5,
 section.has-dark-background h6 {
-  color: #fff;
+  color: #f4f4f4;
+}
+
+section.has-dark-background strong {
+  color: #5ec3a0;
 }
 
 /*********************************************
  * GLOBAL STYLES
  *********************************************/
 body {
-  background: #fff;
-  background-color: #fff; }
+  background: #fbfbfb;
+  background-color: #fbfbfb; }
 
 .reveal {
   font-family: "LatoLatin", sans-serif;
@@ -27,12 +34,12 @@ body {
   color: #222; }
 
 ::selection {
-  color: #fff;
+  color: #fbfbfb;
   background: #5ec3a0;
   text-shadow: none; }
 
 ::-moz-selection {
-  color: #fff;
+  color: #fbfbfb;
   background: #5ec3a0;
   text-shadow: none; }
 
@@ -61,6 +68,7 @@ body {
 }
 
 .reveal h1 {
+  color: #000;
   font-size: 2.5em; }
 
 .reveal h2 {
@@ -141,7 +149,7 @@ body {
 
 .reveal blockquote {
   display:block;
-  background: #fff;
+  background: #fbfbfb;
   padding: 15px 20px 15px 45px;
   margin: 1.2em 0 1.2em 0;
   position: relative;
@@ -281,7 +289,7 @@ body {
 }
 
 .reveal .roll span:after {
-  color: #fff;
+  color: #fbfbfb;
   background: #1a53a1; }
 
 /*********************************************
